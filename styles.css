@@ -1,0 +1,256 @@
+* {
+  background-color: #f6f5f5;
+}
+body {
+  height: 100vh;
+}
+.title1 {
+  font-family: "Abril Fatface", cursive;
+}
+.title {
+  padding: 77px;
+  position: relative;
+}
+ul {
+  position: absolute;
+  margin-left: -60px;
+}
+li {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 17px;
+  padding: 27px;
+}
+.not{
+  display:none;
+}
+
+.about {
+  text-decoration: line-through red;
+}
+.btn {
+  border-radius: 50px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  background: #ec4646;
+  padding: 10px 55px 10px 55px;
+  text-decoration: none;
+  postion: absolute;
+  margin-top: 550px;
+  border: transparent;
+}
+
+.header {
+  font-family: "Abril Fatface", cursive;
+  font-size: 77px;
+}
+.head {
+  position: relative;
+  top: -770px;
+  margin-left: 420px;
+}
+.lorem {
+  position: relative;
+  top: -1050px;
+  margin-left: 1215px;
+}
+.lorem2 {
+  display: none;
+}
+p {
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 0.9;
+  color: #777575;
+}
+.line {
+  width: 70px;
+  border: 1px solid #ec4646;
+  position: relative;
+  top: -1040px;
+  margin-left: 1215px;
+}
+
+.card {
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+  width: 15%;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 5px 20px;
+  font-size: 15px;
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  font-weight: 25px;
+}
+.image {
+  clip-path: circle();
+}
+.main {
+  width: 1200px;
+  display: flex;
+  height: auto;
+  padding: 100px;
+  justify-content: space-around;
+  position: relative;
+  top: -900px;
+  left: 300px;
+}
+
+.image img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+@media (max-width: 500px) {
+
+  .title2 {
+    top: -70px;
+    text-align: center;
+  }
+  .not{
+    display:block;
+  }
+  .title3 {
+    display: none;
+  }
+  li {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  .main {
+    display: none;
+  }
+  ul {
+    display: none;
+  }
+  .lorem {
+    display: none;
+  }
+  .lorem2 {
+    display: block;
+    position: relative;
+    top: 420px;
+    left: 75px;
+  }
+  .header {
+    font-size: 15px;
+  }
+  .line {
+    display: none;
+  }
+  .line2 {
+    width: 70px;
+    border: 1px solid #ec4646;
+    position: relative;
+    top: 3px;
+    left: 1px;
+  }
+  .image2 {
+    position: relative;
+    top: -873px;
+    left: 290px;
+  }
+  .main2 {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: -430px;
+    height: 200px;
+    margin-left: 38px;
+  }
+
+  .fas {
+    font-size: 30px;
+    color: #ec4646;
+    position: relative;
+    top: -912px;
+    left: -15px;
+  }
+  .card2 {
+    width: 35%;
+
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .image img {
+    width: 100%;
+    margin-top: -35px;
+  }
+  .heading {
+    position: relative;
+    font-family: "Abril Fatface", cursive;
+    top: -450px;
+    left: 70px;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  .main3 {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: -390px;
+    height: 200px;
+    margin-left: 38px;
+  }
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .text {
+    font-size: 15px;
+    font-family: "Varela Round", sans-serif;
+    text-align: center;
+    margin-top: -10px;
+    font-weight: 25px;
+  }
+
+  /* dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    top: -915px;
+    left: -15px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropbtn {
+    background-color: transparent;
+    border: none;
+  }
+}
